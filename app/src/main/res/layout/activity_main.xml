@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#fff"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,22 +16,21 @@
         android:orientation="vertical">
 
 
-        <TextView
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:src="@drawable/tecno_logo"
+            android:layout_gravity="center"
             android:layout_marginTop="150dp"
-            android:text="TecnoQuiz "
-            android:textAlignment="center"
-            android:textColor="@color/colorFont"
-            android:textSize="40dp" />
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:text="Welcome to TecnoQuiz!!!\n Click on the button below to Start \n the test."
+            android:text="Welcome to TecnoQuiz!!!\n Click on the button below to start \n the test."
             android:textAlignment="center"
-            android:textColor="@color/colorFont"
+            android:textColor="#3D3A3A"
             android:textSize="20dp" />
 
         <Button
@@ -37,7 +38,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="150dp"
-            android:background="@drawable/button"
-            android:text="Start" />
+            android:background="#00B0F0"
+            android:text="Start"
+            android:textColor="#000"
+            />
     </LinearLayout>
 </LinearLayout>
