@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Question_Activity">
+    tools:context=".QuestionFour_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,8 @@
             <RadioButton
                 android:id="@+id/btnCorreta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -54,12 +55,9 @@
             android:layout_marginTop="100dp"
             android:background="#00B0F0"
             android:text="Next"
-            android:textColor="#000"
-            android:onClick="nextQ"
-            />
+            android:textColor="#000" />
 
 
     </LinearLayout>
-
 
 </LinearLayout>
