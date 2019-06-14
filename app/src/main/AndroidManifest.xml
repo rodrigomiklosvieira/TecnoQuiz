@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TemaSemaBarra">
-        <activity android:name=".QuestionSix_Activity"></activity>
+        <activity android:name=".QuestionThirteenActivity"></activity>
+        <activity android:name=".QuestionTwelve_Activity" />
+        <activity android:name=".QuestionEleven_Activity" />
+        <activity android:name=".QuestionTen_Activity" />
+        <activity android:name=".QuestionNine_Activity" />
+        <activity android:name=".QuestionEight_Activity" />
+        <activity android:name=".QuestionSeven_Activity" />
+        <activity android:name=".QuestionSix_Activity" />
         <activity android:name=".QuestionFive_Activity" />
         <activity android:name=".QuestionFour_Activity" />
         <activity android:name=".QuestionThree_Activity" />
