@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Question_Activity">
+    tools:context=".QuestionTwo_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,6 +61,5 @@
 
 
     </LinearLayout>
-
 
 </LinearLayout>
