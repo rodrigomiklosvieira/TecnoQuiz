@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">TecnoQuiz</string>
+    <string name="app_name"></string>
+    <string name="qone">1-Which of these devices are considered output devices?</string>
+    <string name="qtwo">2-(about)On input devices, which would be the most correct definition?</string>
+    <string name="qthree">3-What is the term used to refer to the technique used to increase the speed of processors and memory ram?</string>
+    <string name="qfour">4-What is the meaning of WWW?</string>
+    <string name="qfive">5-Which of the plates(cards) below are defined as expansion cards?</string>
+    <string name="qsix">6-Which drives are used to define the data storage capacity of a device</string>
+    <string name="qseven">7-What should be taken into account when choosing a power supply for your computer?</string>
+    <string name="qeight">8-Which of these memories are considered volatile and non-volatile respectively?</string>
+    <string name="qnine">9-What is the latest standard of memory ram?</string>
+    <string name="qten">10-Choose the alternative that contains the correct order of the laser printing process</string>
+    <string name="qeleven">11-Which of the alternatives below are network transmission modes?</string>
+    <string name="qtwelve">12-What are the types of computer networks?</string>
+    <string name="qthirteen">13-Select the correct alternative that contains physical network components</string>
+
 </resources>

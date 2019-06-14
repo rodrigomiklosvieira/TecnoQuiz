@@ -41,6 +41,7 @@
             android:background="#00B0F0"
             android:text="Start"
             android:textColor="#000"
-            />
+            android:onClick="entrarApp"
+             />
     </LinearLayout>
 </LinearLayout>
