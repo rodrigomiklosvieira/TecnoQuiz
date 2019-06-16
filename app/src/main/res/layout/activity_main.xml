@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:text="Welcome to TecnoQuiz!!!\n Click on the button below to start \n the test."
             android:textAlignment="center"
             android:textColor="#3D3A3A"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="70dp"
             android:background="#00B0F0"
             android:text="Start"
             android:textColor="#000"

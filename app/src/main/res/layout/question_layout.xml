@@ -18,31 +18,52 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="200dp"
-            android:text="" />
+            android:layout_marginTop="120dp"
+            android:text="@string/qone"
+            android:textSize="20dp"
+            android:textColor="#3D3A3A"
+            />
 
         <RadioGroup
             android:id="@+id/radio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
 
             <RadioButton
                 android:id="@+id/btnCorreta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="earphones, printer and monitor."
+                android:textSize="16dp"
+                android:textColor="#3D3A3A"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="keyboard, mouse and printer."
+                android:textSize="16dp"
+                android:textColor="#3D3A3A"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="sound boxes, keyboard and printer."
+                android:textSize="16dp"
+                android:textColor="#3D3A3A"
+                />
 
             <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="webcam, mouse and monitor."
+                android:textSize="16dp"
+                android:textColor="#3D3A3A"
+                />
 
         </RadioGroup>
 

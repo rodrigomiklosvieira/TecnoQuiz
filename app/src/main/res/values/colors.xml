@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorFont">#0C0C0C</color>
+    <color name="qfont">#3D3A3A</color>
 
 </resources>

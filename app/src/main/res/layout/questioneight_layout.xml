@@ -18,34 +18,52 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="200dp"
-            android:text="" />
+            android:layout_marginTop="120dp"
+            android:text="@string/qeight"
+            android:textSize="20dp"
+            android:textColor="@color/qfont"
+            />
 
         <RadioGroup
             android:id="@+id/radio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HD and memory RAM"
+                android:textColor="@color/qfont"
+                android:textSize="16dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HD and memory CACHE"
+                android:textColor="@color/qfont"
+                android:textSize="16dp"
+                />
 
             <RadioButton
                 android:id="@+id/btnCorreta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="memories RAM and ROM"
+                android:textColor="@color/qfont"
+                android:textSize="16dp"
+                />
 
             <RadioButton
-                android:id="@+id/btnErroUm"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/btnErroDois"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RadioButton
-                android:id="@+id/btnErroTres"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="memory ROM AND byte"
+                android:textColor="@color/qfont"
+                android:textSize="16dp"
+                />
 
         </RadioGroup>
 
@@ -57,7 +75,9 @@
             android:layout_marginTop="100dp"
             android:background="#00B0F0"
             android:text="Next"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:onClick="nextQ"
+            />
 
 
     </LinearLayout>

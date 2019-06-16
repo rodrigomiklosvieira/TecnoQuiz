@@ -24,7 +24,7 @@ public class Question_Activity extends AppCompatActivity {
 
 
 
-        if () {
+        if (correta.isChecked()) {
 
             Toast.makeText(getApplicationContext(),"Congratilations, you're right!!!",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(Question_Activity.this, QuestionTwo_Activity.class);
