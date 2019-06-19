@@ -26,14 +26,19 @@ public class Question_Activity extends AppCompatActivity {
 
         if (correta.isChecked()) {
 
-            Toast.makeText(getApplicationContext(),"Congratilations, you're right!!!",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Congratulations, you're right!!!",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(Question_Activity.this, QuestionTwo_Activity.class);
             startActivity(intent);
+            finish();
 
 
         }else{
             Toast.makeText(getApplicationContext(),"You're wrong, try again",Toast.LENGTH_SHORT).show();
+
         }
 
+
     }
+
+
 }

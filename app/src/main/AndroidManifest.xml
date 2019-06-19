@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TemaSemaBarra">
-        <activity android:name=".Closure_Activity"></activity>
-        <activity android:name=".QuestionThirteenActivity" />
+        <activity android:name=".Closure_Activity"/>
+
+
+        <activity android:name=".QuestionThirteenActivity" >
+        </activity>
         <activity android:name=".QuestionTwelve_Activity" />
         <activity android:name=".QuestionEleven_Activity" />
         <activity android:name=".QuestionTen_Activity" />
@@ -24,12 +27,14 @@
         <activity android:name=".QuestionTwo_Activity" />
         <activity android:name=".Question_Activity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+   </activity>
+
+
     </application>
 
 </manifest>

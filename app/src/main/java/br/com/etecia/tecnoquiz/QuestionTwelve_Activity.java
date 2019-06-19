@@ -25,13 +25,14 @@ public class QuestionTwelve_Activity extends AppCompatActivity {
 
         if (correta.isChecked()) {
 
-            Toast.makeText(getApplicationContext(),"Congratilations, you're right!!!",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Congratulations, you're right!!!",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(QuestionTwelve_Activity.this, QuestionThirteenActivity.class);
             startActivity(intent);
-
+            finish();
 
         }else{
             Toast.makeText(getApplicationContext(),"You're wrong, try again",Toast.LENGTH_SHORT).show();
         }
+
     }
 }
