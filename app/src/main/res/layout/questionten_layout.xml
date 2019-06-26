@@ -60,7 +60,7 @@
                 android:id="@+id/btnCorreta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Processing, loading, exposure, disclosure, transfer, merging and cleaning"
+                android:text="Processing, loading, exposure, disclosure, transfer, merging and cleaning"
                 android:textColor="@color/qfont"
                 android:textSize="16dp"
                 />
